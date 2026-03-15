@@ -19,20 +19,18 @@ A clean, open-source Python utility to convert multiple `.mov` files to high-qua
     git clone https://github.com/Akshay-gurav-31/Batch-MOV-to-MP4-Converter/
     cd Batch-MOV-to-MP4-Converter
     ```
-2.  **Initialize Folders**:
-    Run the script once to generate the `video/` folder:
-    ```bash
-    python converter.py
+3.  **Project Structure**:
+    The repository comes with the following structure:
+    ```text
+    /Batch-MOV-to-MP4-Converter
+    ├── video/           # Add your .mov files here
+    ├── converter.py     # Conversion script
+    ├── .gitignore
+    ├── LICENSE
+    └── README.md
     ```
 
-## Usage
-
-1.  Place your `.mov` files inside the newly created `video/` folder.
-2.  Run the script:
-    ```bash
-    python converter.py
-    ```
-3.  Find your converted videos in the `output/` folder.
+*Note: The `output/` folder will be created automatically when you run the script.*
 
 ## Technical Details
 - **Video Codec**: H.264 (`libx264`)
