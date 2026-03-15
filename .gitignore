@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Project Specific
+video/*
+!video/.gitkeep
+output/
+
+# IDEs
+.vscode/
+.idea/
